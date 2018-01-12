@@ -1,0 +1,32 @@
+.App {
+  text-align: center;
+}
+
+.App-header {
+  background-color: #222;
+  height: 55px;
+  padding: 20px;
+  color: white;
+}
+
+.App-title {
+  font-size: 1.5em;
+}
+
+.App-intro {
+  font-size: large;
+}
+
+.ConverterBox {
+  margin-top: 20px
+}
+
+.ConverterBox input {
+  font-size: 15px;
+  padding: 10px;
+  text-align: center;
+}
+
+.ConverterBox input:focus {
+  outline: 0;
+}
