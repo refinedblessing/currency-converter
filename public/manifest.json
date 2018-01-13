@@ -1,8 +1,7 @@
 {
   "manifest_version": 2,
   "name": "Currency Converter",
-  "version": 1,
-  "default_locale": "en",
+  "version": "1.0",
   "description": "Simple currency converter",
   "icons": {
     "32": "favicon.ico"
@@ -11,9 +10,5 @@
     "default_icon": "favicon.ico",
     "default_title": "Convert Money",
     "default_popup": "./index.html"
-  },
-  "start_url": "./index.html",
-  "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  }
 }

@@ -4,7 +4,7 @@
 
 .App-header {
   background-color: #222;
-  padding: 10px;
+  padding: 5px;
   color: white;
 }
 
@@ -17,16 +17,16 @@
 }
 
 .ConverterBox {
-  margin: auto
+  margin: auto;
 }
 
 .ConverterBox div {
-  margin: 20px
+  margin: 10px;
 }
 
 .ConverterBox p {
-  margin-top: 20px;
-  font-size: 20px;
+  margin-top: 15px;
+  font-size: 1.2em;
   text-align: center;
 }
 
