@@ -63,11 +63,11 @@ class ConverterBox extends Component {
     return (
       <div className="ConverterBox">
         <div>
-          <SelectBox countryCodes={countryCodes} name={'s1'} countryCode={s1} handleSelectChange={this.handleSelectChange}/>
+          <SelectBox options={countryCodes} name={'s1'} value={s1} handleChange={this.handleSelectChange}/>
           <input value={i1} onChange={this.handleChange} name={'i1'}/>        
         </div>
         <div>
-          <SelectBox countryCodes={countryCodes} name={'s2'} countryCode={s2} handleSelectChange={this.handleSelectChange}/>
+          <SelectBox options={countryCodes} name={'s2'} value={s2} handleChange={this.handleSelectChange}/>
           <input value={i2} onChange={this.handleChange} type="number" name={'i2'} />        
         </div>
         <div>
