@@ -26,7 +26,7 @@ class App extends Component {
           <h1 className="App-title">Currency Converter</h1>
         </header>
         {
-          this.state.loading ? <p>Loading your Converter...</p> : <ConverterBox />
+          this.state.loading ? <p>Loading your Converter...</p> : <ConverterBox rates={this.state.rates}/>
         }
       </div>
     );
